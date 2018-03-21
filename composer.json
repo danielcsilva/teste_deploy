@@ -1,11 +1,15 @@
 {
     "name": "daniel.silva/teste_deploy_hub",
+	"keywords": ["php", "qa", "tools", "jenkins"],
     "authors": [
         {
             "name": "Daniel Silva",
             "email": "daniel.silva@essor.com.br"
         }
     ],
+    "config": {
+        "bin-dir": "bin"
+    },
     "require": {
         "phploc/phploc": "^4.0",
         "pdepend/pdepend": "^2.5",
