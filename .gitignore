@@ -66,4 +66,4 @@ src/protected/config/main-local.php
  
 /.htaccess
 
-/vendor/
+#/vendor/
