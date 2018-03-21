@@ -3,7 +3,7 @@
 <project name="teste_job" default="build">
 
 	<property name="basedir" value="."/>
-	<property name="phploc"  value="${basedir}/vendor/autoload.php"/>
+	<property name="phploc"  value="${basedir}/vendor/bin/phploc"/>
 
 	<target name="build"
             depends="prepare,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdox,phpunit"/>
