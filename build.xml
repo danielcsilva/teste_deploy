@@ -125,4 +125,16 @@
             <arg line="${basedir}/src/protected/tests/unit" />
         </exec>
     </target>
+	
+	<dirname property="build.dir" file="${ant.file}" />
+
+    <target name="test">
+
+            <exec executable="cmd">
+                <arg value="/c" />
+                <arg value="C:\xampp\php\php.exe" />
+                <arg value="${build.dir}\test.php" />
+            </exec>
+
+    </target>
 </project>
