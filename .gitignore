@@ -65,3 +65,5 @@ app/config/database.php
 src/protected/config/main-local.php
  
 /.htaccess
+
+/vendor/

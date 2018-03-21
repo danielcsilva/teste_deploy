@@ -1,0 +1,15 @@
+{
+    "name": "daniel.silva/teste_deploy_hub",
+    "authors": [
+        {
+            "name": "Daniel Silva",
+            "email": "daniel.silva@essor.com.br"
+        }
+    ],
+    "require": {
+        "phploc/phploc": "^4.0",
+        "pdepend/pdepend": "^2.5",
+        "phpmd/phpmd": "^2.6",
+        "squizlabs/php_codesniffer": "^3.2"
+    }
+}
