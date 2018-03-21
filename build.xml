@@ -3,7 +3,13 @@
 <project name="teste_job" default="build">
 
 	<property name="basedir" value="."/>
+	<property name="pdepend" value="${basedir}/vendor/bin/pdepend"/>
+	<property name="phpcpd"  value="${basedir}/vendor/bin/phpcpd"/>
+	<property name="phpcs"   value="${basedir}/vendor/bin/phpcs"/>
+	<property name="phpdox"  value="${basedir}/vendor/bin/phpdox"/>
 	<property name="phploc"  value="${basedir}/vendor/bin/phploc"/>
+	<property name="phpmd"   value="${basedir}/vendor/bin/phpmd"/>
+	<property name="phpunit" value="${basedir}/vendor/bin/phpunit"/>
 
     <target name="build"
             depends="prepare,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdox,phpunit"/>
